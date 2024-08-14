@@ -39,7 +39,7 @@ data "aws_ssm_parameter" "ecs_optimized_gpu_ami" {
 
 module "autoscaling" {
   source  = "terraform-aws-modules/autoscaling/aws"
-  version = "~> 7.0"
+  version = "~> 8.0"
 
   name = local.name
 
